@@ -17,7 +17,7 @@ export type { NextInstance }
 // test job exceeds the 6 hours limit.
 let testTimeout =
   shouldRunTurboDevTest() || shouldRunExperimentalTurboDevTest()
-    ? (240 * 1000) / 4
+    ? (240 * 1000) / 1
     : 240 * 1000
 if (process.env.NEXT_E2E_TEST_TIMEOUT) {
   try {

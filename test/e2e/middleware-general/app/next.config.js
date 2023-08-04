@@ -2,7 +2,7 @@ module.exports = {
   experimental: {
     webpackBuildWorker: true,
   },
-  i18n: {
+  __i18n: {
     locales: ['en', 'fr', 'nl'],
     defaultLocale: 'en',
   },
